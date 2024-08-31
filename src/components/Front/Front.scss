@@ -1,0 +1,5 @@
+@import "../Common SCSS/common.scss";
+
+#front_container {
+	@include page_defaults();
+}

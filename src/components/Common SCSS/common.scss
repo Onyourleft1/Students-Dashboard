@@ -1,0 +1,29 @@
+$header_width: 14em;
+$page_padding: 2em;
+$table_border: 1px solid black;
+
+@mixin page_defaults() {
+	margin-left: $header_width;
+	padding: $page_padding;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: $page_padding/2;
+}
+@mixin table_defaults() {
+	border: $table_border;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	max-height: 600px;
+}
+
+@mixin popup_defaults() {
+	display: flex;
+	// flex-direction: r;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 1em;
+	width: 100%;
+}

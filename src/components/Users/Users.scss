@@ -1,0 +1,35 @@
+@import "../Common SCSS/common.scss";
+
+#users_container {
+	@include page_defaults();
+
+	#table_container {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+
+		#products_table {
+			@include table_defaults();
+
+			th {
+				border: $table_border;
+				padding: 1em;
+			}
+			tr {
+				border: $table_border;
+
+				td {
+					border: $table_border;
+					padding: 0.25em 2em;
+					text-wrap: wrap;
+				}
+			}
+
+			tr:nth-child(even) {
+				background-color: rgb(135, 135, 135);
+				color: white;
+			}
+		}
+	}
+}

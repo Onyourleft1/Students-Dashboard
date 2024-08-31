@@ -1,0 +1,12 @@
+#productView_container {
+	#edit {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+	}
+	#product_img {
+		height: 30px;
+		aspect-ratio: auto;
+	}
+}

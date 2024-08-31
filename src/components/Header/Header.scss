@@ -1,0 +1,24 @@
+#header_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1em;
+	padding: 2em;
+	min-height: calc(100vh - 4em);
+	width: 10em;
+	background-color: gray;
+
+	a {
+		color: white;
+		text-decoration: none;
+		font-weight: 500;
+
+		&:hover {
+			color: black;
+		}
+	}
+}

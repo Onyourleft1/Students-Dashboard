@@ -1,0 +1,14 @@
+@import "../../Common SCSS/common.scss";
+
+#productsform_container {
+	@include popup_defaults();
+
+	input {
+		padding: 0.75em 1em;
+		width: 90%;
+	}
+
+	button {
+		padding: 0.5em 1em;
+	}
+}

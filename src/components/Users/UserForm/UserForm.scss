@@ -1,0 +1,20 @@
+@import "../../Common SCSS/common.scss";
+
+#usersform_container {
+	@include popup_defaults();
+	input {
+		padding: 0.75em 1em;
+		width: 90%;
+
+		&:nth-child(1) {
+			width: 39%;
+		}
+		&:nth-child(2) {
+			width: 39%;
+		}
+	}
+
+	button {
+		padding: 0.5em 1em;
+	}
+}
